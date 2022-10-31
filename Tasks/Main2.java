@@ -1,7 +1,6 @@
-package Task2;
 import java.util.Arrays;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         //Повтор букв слова - 1
         System.out.print(repeat("mice", 5));
