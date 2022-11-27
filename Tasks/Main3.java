@@ -111,7 +111,7 @@ public class Main3 {
         public static boolean isValidHexCode(String num) {
             if (num.charAt(0) != '#' || num.length() != 7) return false;
             for (int i = 1; i < num.length(); i++) {
-                int ascii = (int) num.charAt(i);
+                int ascii = num.charAt(i);
                 if (!( (ascii >= 48 && ascii <= 57) || (ascii >= 65 && ascii <= 70) || (ascii >= 97 && ascii <= 102) ))
                     return false;
             }
